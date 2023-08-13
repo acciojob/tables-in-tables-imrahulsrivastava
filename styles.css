@@ -4,10 +4,16 @@ tr,
 td {
   border: 1px solid black;
   text-align: center;
+  
 }
 
 table {
     width: 100%;
+    table-layout: fixed;
+}
+
+#extra-margin {
+    margin: 50px 0px;
 }
 
 #background-black {
