@@ -1,2 +1,17 @@
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
 
-/* Your CSS Code here. */
+table {
+    width: 100%;
+}
+
+#background-black {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
