@@ -3,90 +3,77 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Rahul Srivastava">
-    <meta name="description" content="Acciojob assignment">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acciojob Assignment</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <table>
-        <tbody>
-            <tr>
-                <td>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th colspan="2">Nested Table 2</th>
-                            </tr>
-                            <tr>
-                                <th>Column 1</th>
-                                <th>Column 2</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>abc</td>
-                                <td>def</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-                <td>
-                    <table id="extra-margin">
-                        <thead>
-                            <tr>
-                                <th>Nested Table 1</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <ul>
-                                        <li>List item</li>
-                                        <li>List item</li>
-                                        <li>List item</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th colspan="2">Nested Table 3</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="#">Nested Table</a></td>
-                                <td>Demo Continued</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Nested Table 4</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td id="background-black">HTML</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </tbody>
+    <table id="main-table">
+        <tr>
+            <td>
+                <!-- Nested Table 2 -->
+                <table>
+                    <tr>
+                        <th colspan="2">Nested Table 2</th>
+                    </tr>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                    </tr>
+                    <tr>
+                        <td>abc</td>
+                        <td>def</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <!-- Nested Table 1 -->
+                <table>
+                    <tr>
+                        <th>Nested Table 1</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>List item</li>
+                                <li>List item</li>
+                                <li>List item</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- Nested Table 3 -->
+                <table>
+                    <tr>
+                        <th colspan="2">Nested Table 3</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Nested Table</a>
+                        </td>
+                        <td>Demo Continued</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <!-- Nested Table 4 -->
+                <table>
+                    <tr>
+                        <th>Nested Table 4</th>
+                    </tr>
+                    <tr>
+                        <td class="bg-black">
+                            HTML
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
     </table>
 </body>
 
